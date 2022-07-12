@@ -60,7 +60,7 @@ app.get('/about', (req, res) => {
         title: 'About',
         name: 'Dimo'
     });
-})
+});
 
 app.get('/help', (req, res) => {
     res.render('help', {
