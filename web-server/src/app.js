@@ -20,7 +20,7 @@ app.set('views', viewsPath)
 hbs.registerPartials(partialsPath)
 
 //setup static directory to serve
-app.use(express.static(publicDirectoryPath))
+app.use(express.static(publicDirectoryPath));
 
 app.get('/weather', (req, res) => {
     if (!req.query.address) {
