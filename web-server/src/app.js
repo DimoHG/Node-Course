@@ -7,6 +7,7 @@ import {geocode} from "./utils/geocode.js";
 
 
 const app = express();
+const port = process.env.PORT || 3000;
 const __dirname = path.resolve();
 
 //define paths for express config
@@ -86,6 +87,6 @@ app.get('*', (req, res) => {
     })
 })
 
-app.listen(3000, () => {
-    console.log('Running on 3000')
+app.listen(port, () => {
+    console.log('Running on ' + port)
 })
