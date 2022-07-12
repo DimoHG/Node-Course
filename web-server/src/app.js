@@ -53,7 +53,7 @@ app.get('', (req, res) => {
         title: 'Weather',
         name: 'Dimo'
     });
-})
+});
 
 app.get('/about', (req, res) => {
     res.render('about', {
