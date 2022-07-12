@@ -68,7 +68,7 @@ app.get('/help', (req, res) => {
         name: 'Dimo',
         helpText: 'Help??'
     });
-})
+});
 
 app.get('/help/*', (req, res) => {
     res.render('404', {
