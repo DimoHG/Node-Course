@@ -14,5 +14,8 @@
     "hbs": "^4.2.0",
     "postman-request": "^2.88.1-postman.31"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
